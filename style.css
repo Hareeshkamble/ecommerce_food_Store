@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.avbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    /* color: blue; */
+
+}
+.avbar-brand:hover{
+    color:black;
+
+}
+.nav-link{
+    font-weight: lighter;
+    font-family: 'Kalam', cursive;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+
+}
+.nav-link:hover{
+    color: rgb(16, 16, 16);
+}
+.search{
+    height:40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right:-45px;
+    border:2px solid red;
+}
+.btn0{
+    
+font-family:'Times New Roman', Times, serif;
+font-size: 25px;
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border:none;
+    background-color: rgb(220, 73, 73);
+    color:white;
+border-radius: 60px;
+font-weight: 700px;
+animation-name: glow;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in;
+    
+}
+@keyframes glow {
+    from {background-color: rgb(226, 209, 209);}
+    to {background-color: rgb(137, 137, 71);}
+}
+.btn0:hover{
+    transition: 0.5s;
+    
+}
+.main{
+    background: url(/img/HD-wallpaper-pizza-slice-fast-food-cheese-green-peppers-food.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position:50% 50%;
+}
+.main h1{
+    font-size:4rem;
+    font-weight: 708;
+    color:rgb(214, 202, 202);
+}
+.btn1{
+    font-family:'Times New Roman', Times, serif;
+    height: 45px;
+    width: 35%;
+    border:none;
+    outline: none;
+    background-color: rgb(220, 73, 73);
+    
+    font-weight: 700px;
+    border-radius: 60px;
+
+
+}
+.carousel-item{
+    
+    
+   
+
+
+}
+.imgg{
+ 
+height: 300px;
+width: 100%;
+object-fit: cover;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: rebeccapurple;
+}
+.new{
+    padding-top: 2px;
+    display:flex;
+
+}
+.new h2{
+   
+}
+.new img{
+    height: 100px;
+    width: 80px;
+   margin-left: 5px;
+  
+   }
+   .product h1{
+    font-weight: 700px;
+    font-family: 'Kalam', cursive;
+
+
+   }
+.trend img{
+    height: 220px;
+    width: 180px;
+    object-fit: cover;
+    margin: 10px;
+}
+.trend1 img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin: 20px;
+}
+.order{
+    font-style: oblique;
+    font-family: fantasy;
+}
+
+
+/* @media (max-width: 900px) {
+    .naam{
+        display: none;
+    }
+    .dabba img{
+       display: none;
+       overflow: hidden;
+    }
+
+    .dabba{
+      display: none;
+      
+
+    }
+
+} */
+    
+.card:hover{
+    /* -webkit-box-shadow: 14px 7px 5px 0px rgb(138, 122, 138);
+    -moz-box-shadow: 14px 7px 5px 0px rgba(128,111,128,1);
+    box-shadow: 0px -14px 56px 14px rgba(128,111,128,1); */
+   
+    -webkit-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    -moz-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+transition: 0.8s; 
+}
+.healthy{
+    color: rgb(61, 127, 61);
+    font-weight: 700;
+    font-family: 'Kalam', cursive;
+
+}
+.cart{
+    height: 30px;
+    width: 30px;
+    overflow:hidden;
+    top: 10px;
+
+}
+.about p{
+    text-align: justify;
+    float: right;
+    font-size: 18px;
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+.shadowbox:hover{
+    -webkit-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    -moz-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+transition: 0.8s; 
+}
+.heroin img{
+    height: 330px;
+    width: 330px;
+    margin: 20px;
+
+    object-fit: cover;
+}
+.heroin{
+    margin: 0px;
+    
+}
+.Apple{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/holding\ apple.webp) no-repeat;
+    
+    background-size:cover;
+    height:80vh;
+    width: 100%;
+    image-resolution: 100px;
+    color: bisque;
+    font-family: cursive;
+}
+.Apple button{
+background-color: #974343;
+font-weight: bolder;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.contact h6{
+    font-size: 20px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer h1{
+    font-size: 70px;
+}
+.footer input{
+    height: 45px;
+    width: 500px;
+    border-radius: 50px;
+    /* text-align: center; */
+    outline: none;
+    border: 2px white solid;
+    background-color: black;
+    color: rgb(247, 245, 245);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+#mailid::placeholder {
+    text-align:right(20px);
+    margin-left: 3px;
+    color: rgb(196, 169, 169);
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2px;
+    background-color: hotpink;
+    margin-left: -40px;
+    outline: none;
+    border: 2px white solid;
+
+
+}
+.footer p a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size:18px;
+    line-height: 6 px;
+}
+.fab {
+    font-size: 35px;
+    margin: 10px;
+    cursor: pointer;
+}
+.fb:hover{
+    color: rgb(33, 125, 255);
+}
+.ig:hover{
+    color: rgb(243, 106, 225);
+}
+.tw:hover{
+    color: rgb(6, 144, 236);
+}
+.g:hover{
+    color: rgb(234, 14, 14);
+}
+.fas{
+    font-size: 30px;
+   
+};
+.card-body:hover{
+    
+}
+.harry{
+    color:salmon;
+}
